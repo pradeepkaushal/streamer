@@ -17,7 +17,6 @@ public class TwitterStream {
         cb.setOAuthAccessTokenSecret("8tCOKbUTXfC5vRMzglaaYVeK9h0m1np7GU4FiA1SPBYUm");
 
 
-
         twitter4j.TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 
 
@@ -52,8 +51,11 @@ public class TwitterStream {
                 ex.printStackTrace();
             }
         };
+
         twitterStream.addListener(listener);
-        twitterStream.firehose(5);
+        twitterStream.filter("karnataka");
+        twitterStream.sample();
+
     }
 
 
