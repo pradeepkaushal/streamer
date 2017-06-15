@@ -33,6 +33,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-starter-jetty")
+    compile group: 'org.twitter4j', name: 'twitter4j-stream', version: '4.0.6'
 
     // end::actuator[]
     // tag::tests[]
