@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stream.twitter.services.TwitterStreamImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-06-19T15:14:46" hostname="pradeep" time="0.082">
+  <properties/>
+  <testcase name="streamTweets" classname="com.stream.twitter.services.TwitterStreamImplTest" time="0.082"/>
+  <system-out><![CDATA[20:44:47.060 [Twitter Stream consumer /  [1][Disposing thread]] INFO twitter4j.TwitterStreamImpl - Establishing connection.
+20:44:47.060 [Test worker] DEBUG twitter4j.TwitterStreamImpl - Twitter Stream consumer /  [1][Disposing thread]
+20:44:47.062 [Twitter Stream consumer /  [1][Establishing connection]] DEBUG twitter4j.TwitterStreamImpl - Twitter Stream consumer /  [1][Establishing connection]
+20:44:47.062 [Twitter Stream consumer /  [2][initializing]] INFO twitter4j.TwitterStreamImpl - Establishing connection.
+20:44:47.063 [Twitter Stream consumer /  [2][Establishing connection]] DEBUG twitter4j.TwitterStreamImpl - Twitter Stream consumer /  [2][Establishing connection]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
