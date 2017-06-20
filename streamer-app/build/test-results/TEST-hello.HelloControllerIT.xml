@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.HelloControllerIT" tests="1" skipped="1" failures="0" errors="0" timestamp="2017-06-19T15:14:47" hostname="pradeep" time="0.0">
+  <properties/>
+  <testcase name="initializationError" classname="hello.HelloControllerIT" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[20:44:47.111 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerIT]
+20:44:47.113 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:44:47.121 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:44:47.138 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:44:47.149 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerIT], using SpringBootContextLoader
+20:44:47.154 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerIT-context.xml] does not exist
+20:44:47.154 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerITContext.groovy] does not exist
+20:44:47.154 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:44:47.155 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerIT]: HelloControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:44:47.199 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerIT]
+20:44:47.207 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:44:47.207 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:44:47.207 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:44:47.216 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/]]
+20:44:47.217 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello]
+20:44:47.217 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello] for files matching pattern [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/*.class]
+20:44:47.220 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/HelloControllerIT.class], file [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/HelloControllerTest.class]]
+20:44:47.231 [Twitter Stream consumer /  [1][Establishing connection]] DEBUG twitter4j.HttpClientImpl - Request: 
+20:44:47.231 [Twitter Stream consumer /  [2][Establishing connection]] DEBUG twitter4j.HttpClientImpl - Request: 
+20:44:47.231 [Twitter Stream consumer /  [1][Establishing connection]] DEBUG twitter4j.HttpClientImpl - POST https://stream.twitter.com/1.1/statuses/filter.json
+20:44:47.231 [Twitter Stream consumer /  [2][Establishing connection]] DEBUG twitter4j.HttpClientImpl - GET https://stream.twitter.com/1.1/statuses/sample.json?stall_warnings=true
+20:44:47.232 [Twitter Stream consumer /  [2][Establishing connection]] DEBUG twitter4j.auth.OAuthAuthorization - OAuth base string: GET&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Fsample.json&oauth_consumer_key%3D9yUScAJ83ibPjrqh4MryxR5Ti%26oauth_nonce%3D3457626049%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1497885287%26oauth_token%3D56950206-hvnbZtglDkeS66f2hwdgHsrUgsEyDXpBH02y91c69%26oauth_version%3D1.0%26stall_warnings%3Dtrue
+20:44:47.232 [Twitter Stream consumer /  [1][Establishing connection]] DEBUG twitter4j.auth.OAuthAuthorization - OAuth base string: POST&https%3A%2F%2Fstream.twitter.com%2F1.1%2Fstatuses%2Ffilter.json&count%3D0%26oauth_consumer_key%3D9yUScAJ83ibPjrqh4MryxR5Ti%26oauth_nonce%3D1830593032%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1497885287%26oauth_token%3D56950206-hvnbZtglDkeS66f2hwdgHsrUgsEyDXpBH02y91c69%26oauth_version%3D1.0%26stall_warnings%3Dtrue%26track%3Dkarnataka
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

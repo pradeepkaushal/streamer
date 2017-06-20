@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.HelloControllerTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2017-06-19T15:14:47" hostname="pradeep" time="0.0">
+  <properties/>
+  <testcase name="initializationError" classname="hello.HelloControllerTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[20:44:47.251 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerTest]
+20:44:47.251 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:44:47.252 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:44:47.252 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:44:47.253 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerTest], using SpringBootContextLoader
+20:44:47.253 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerTest]: class path resource [hello/HelloControllerTest-context.xml] does not exist
+20:44:47.254 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerTest]: class path resource [hello/HelloControllerTestContext.groovy] does not exist
+20:44:47.254 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:44:47.254 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerTest]: HelloControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:44:47.283 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerTest]
+20:44:47.284 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:44:47.284 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:44:47.284 [Test worker] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:44:47.285 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/]]
+20:44:47.286 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello]
+20:44:47.286 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello] for files matching pattern [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/*.class]
+20:44:47.287 [Test worker] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/HelloControllerIT.class], file [/Users/pradeep.kaushal/flipkart/streamer/twitter-stream/build/classes/test/hello/HelloControllerTest.class]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
