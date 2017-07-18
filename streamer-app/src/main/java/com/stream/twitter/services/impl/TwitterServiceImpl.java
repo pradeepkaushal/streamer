@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class TwitterServiceImpl implements TwitterService {
+
     @Autowired
     private TwitterDao twitterDao;
 
